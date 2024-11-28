@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Status Dark Fiber</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Status Dark Fiber</h1>
+        <div id="current-date"></div>
+    </header>
+
+    <main>
+        <form id="status-form">
+            <div class="form-group">
+                <label for="RSL NIX OSW-2 via Asia Ritel">RSL NIX OSW-2 via Asia Ritel (dBm):</label>
+                <input type="number" id="RSL NIX OSW-2 via Asia Ritel" name="RSL NIX OSW-2 via Asia Ritel">
+            </div>
+            <div class="form-group">
+                <label for="RSL NIX OSW-2 via DCI">RSL NIX OSW-2 via DCI (dBm):</label>
+                <input type="number" id="RSL NIX OSW-2 via DCI" name="RSL NIX OSW-2 via DCI">
+            </div>
+            <div class="form-group">
+                <label for="RSL Gedung Asia Ritel EDFA-10">RSL Gedung Asia Ritel EDFA-10 (dBm):</label>
+                <input type="number" id="RSL Gedung Asia Ritel EDFA-10" name="RSL Gedung Asia Ritel EDFA-10">
+            </div>
+            <div class="form-group">
+                <label for="RSL Gedung DCI EDFA-8">RSL Gedung DCI EDFA-8 (dBm):</label>
+                <input type="number" id="RSL Gedung DCI EDFA-8" name="RSL Gedung DCI EDFA-8">
+            </div>
+            <div class="form-group">
+                <label for="RSL Gedung Asia Ritel EDFA-9">RSL Gedung Asia Ritel EDFA-9 (dBm):</label>
+                <input type="number" id="RSL Gedung Asia Ritel EDFA-9" name="RSL Gedung Asia Ritel EDFA-9">
+            </div>
+            <div class="form-group">
+                <label for="RSL Gedung DCI EDFA-7">RSL Gedung DCI EDFA-7 (dBm):</label>
+                <input type="number" id="RSL Gedung DCI EDFA-7" name="RSL Gedung DCI EDFA-7">
+            </div>
+            <div class="form-group">
+                <label for="RSL STO Sukaresmi via Asia ritel EDFA-4A">RSL STO Sukaresmi via Asia ritel EDFA-4A (dBm):</label>
+                <input type="number" id="RSL STO Sukaresmi via Asia ritel EDFA-4A" name="RSL STO Sukaresmi via Asia ritel EDFA-4A">
+            </div>
+            <div class="form-group">
+                <label for="RSL STO Sukaresmi via DCI EDFA-4B">RSL STO Sukaresmi via DCI EDFA-4B (dBm):</label>
+                <input type="number" id="RSL STO Sukaresmi via DCI EDFA-4B" name="RSL STO Sukaresmi via DCI EDFA-4B">
+            </div>
+        </form>
+        <div class="buttons">
+            <button id="generate-status">Generate Status</button>
+            <button id="clear-chat">Clear Chat</button>
+            <button id="copy-status">Copy Status</button>
+            <button id="exit-program">Exit</button>
+        </div>
+        <textarea id="status-display" readonly></textarea>
+        <div id="notification"></div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
