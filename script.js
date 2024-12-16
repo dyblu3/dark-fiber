@@ -1,13 +1,13 @@
 // Referensi untuk target nilai
 const targets = {
     "RSL NIX OSW-2 via Asia Ritel": 0.5,
-    "RSL NIX OSW-2 via DCI": -5.5,
-    "RSL Gedung Asia Ritel EDFA-10": -9.3,
-    "RSL Gedung DCI EDFA-8": -7.5,
-    "RSL Gedung Asia Ritel EDFA-9": -4.5,
-    "RSL Gedung DCI EDFA-7": -13.4,
-    "RSL STO Sukaresmi via Asia ritel EDFA-4A": -4.9,
-    "RSL STO Sukaresmi via DCI EDFA-4B": -5.3
+    "RSL NIX OSW-2 via DCI": -5.3,
+    "RSL Gedung Asia Ritel EDFA-10": -8.7,
+    "RSL Gedung DCI EDFA-8": -7.9,
+    "RSL Gedung Asia Ritel EDFA-9": -5.0,
+    "RSL Gedung DCI EDFA-7": -7.3,
+    "RSL STO Sukaresmi via Asia ritel EDFA-4A": -8.2,
+    "RSL STO Sukaresmi via DCI EDFA-4B": -3.9
 };
 
 // Map untuk nama hari dan bulan
